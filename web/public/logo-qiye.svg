@@ -1,0 +1,22 @@
+<svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="16" y1="14" x2="82" y2="84" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2A5D3E"/>
+      <stop offset="1" stop-color="#173524"/>
+    </linearGradient>
+    <linearGradient id="mountain" x1="21" y1="62" x2="75" y2="36" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EAF3E8"/>
+      <stop offset="1" stop-color="#BFD7C2"/>
+    </linearGradient>
+    <linearGradient id="tent" x1="41" y1="67" x2="60" y2="46" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F6D06A"/>
+      <stop offset="1" stop-color="#E8A93D"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="8" y="8" width="80" height="80" rx="22" fill="url(#bg)"/>
+  <path d="M20 64L36 44L45 55L56 39L76 64H20Z" fill="url(#mountain)"/>
+  <path d="M35 67L48 47L61 67H35Z" fill="url(#tent)"/>
+  <path d="M48 47V67" stroke="#1E3D2A" stroke-width="3" stroke-linecap="round"/>
+  <path d="M24 70H72" stroke="#9FBEA5" stroke-width="3" stroke-linecap="round" opacity="0.9"/>
+</svg>
